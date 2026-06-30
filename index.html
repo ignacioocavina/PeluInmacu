@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Peluinmacu – Barbería premium en Córdoba. Cortes modernos, fade, diseños personalizados y atención de excelencia. Reserva tu turno online." />
+  <meta name="keywords" content="barbería, cortes de pelo, fade, barba, Córdoba, turnos online, barbería premium" />
+  <meta property="og:title" content="Peluinmacu – Tu Estilo Comienza Aquí" />
+  <meta property="og:description" content="Barbería premium con más de 11.000 seguidores. Cortes, fade, barba y diseños personalizados." />
+  <meta property="og:type" content="website" />
+  <title>Peluinmacu – Tu Estilo Comienza Aquí</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Navegación principal">
+    <div class="nav-container">
+      <a href="#inicio" class="nav-logo" aria-label="Peluinmacu inicio">
+        <span class="logo-icon">✦</span>
+        <span class="logo-text">Peluinmacu</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks" role="list">
+        <li><a href="#inicio" class="nav-link">Inicio</a></li>
+        <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+        <li><a href="#galeria" class="nav-link">Galería</a></li>
+        <li><a href="#servicios" class="nav-link">Servicios</a></li>
+        <li><a href="#turnos" class="nav-link">Turnos</a></li>
+        <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        <li><a href="#turnos" class="nav-cta">Reservar</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="inicio" aria-label="Sección principal">
+    <div class="hero-bg">
+      <div class="hero-overlay"></div>
+      <!-- Diagonal gold lines signature -->
+      <div class="hero-lines" aria-hidden="true">
+        <div class="line l1"></div>
+        <div class="line l2"></div>
+        <div class="line l3"></div>
+      </div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal">Córdoba, Argentina</p>
+      <h1 class="hero-title reveal">
+        <span class="title-main">Peluinmacu</span>
+        <span class="title-sub">Tu estilo<br/>comienza aquí.</span>
+      </h1>
+      <p class="hero-desc reveal">Cortes premium. Fade perfecto. Diseño único.</p>
+      <div class="hero-actions reveal">
+        <a href="#turnos" class="btn btn-primary">Reservar Turno</a>
+        <a href="#galeria" class="btn btn-outline">Ver Trabajos</a>
+      </div>
+    </div>
+    <div class="hero-scroll" aria-hidden="true">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- ========== SOBRE NOSOTROS ========== -->
+  <section class="about" id="nosotros" aria-label="Sobre nosotros">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image reveal">
+          <div class="about-img-wrapper">
+            <div class="about-img-placeholder">
+              <svg viewBox="0 0 200 260" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect width="200" height="260" fill="#1A1A1A"/>
+                <path d="M60 80 Q100 60 140 80 L150 180 Q100 200 50 180Z" fill="none" stroke="#D4AF37" stroke-width="1.5"/>
+                <circle cx="100" cy="55" r="25" fill="none" stroke="#D4AF37" stroke-width="1.5"/>
+                <line x1="80" y1="140" x2="120" y2="140" stroke="#D4AF37" stroke-width="1"/>
+                <line x1="85" y1="155" x2="115" y2="155" stroke="#D4AF37" stroke-width="1"/>
+              </svg>
+            </div>
+            <div class="about-badge">
+              <span class="badge-number">+8</span>
+              <span class="badge-text">Años de<br/>experiencia</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-content reveal">
+          <p class="section-eyebrow">Nuestra historia</p>
+          <h2 class="section-title">Más que una barbería,<br/>un arte.</h2>
+          <p class="about-text">
+            Peluinmacu nació en Córdoba con una visión clara: elevar el estándar del cuidado masculino. 
+            Cada corte es una obra de precisión, cada visita una experiencia que transforma.
+          </p>
+          <p class="about-text">
+            Con más de 8 años en el oficio y formación continua en las últimas tendencias internacionales, 
+            nuestro equipo convierte cada detalle en una declaración de estilo.
+          </p>
+          <!-- Stats row -->
+          <div class="about-stats">
+            <div class="stat-item">
+              <span class="stat-number" data-target="12000">0</span>
+              <span class="stat-label">Clientes atendidos</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" data-target="11000">0</span>
+              <span class="stat-label">Seguidores Instagram</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" data-target="8">0</span>
+              <span class="stat-label">Años de experiencia</span>
+            </div>
+          </div>
+          <a href="#turnos" class="btn btn-primary mt-4">Reservar mi turno</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== GALERÍA ========== -->
+  <section class="gallery" id="galeria" aria-label="Galería de trabajos">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Nuestros trabajos</p>
+        <h2 class="section-title">Galería de Cortes</h2>
+        <p class="section-desc">Cada corte cuenta una historia. Estos son algunos de nuestros mejores trabajos.</p>
+      </div>
+
+      <!-- Filtros -->
+      <div class="gallery-filters reveal" role="tablist" aria-label="Filtrar por categoría">
+        <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">Todos</button>
+        <button class="filter-btn" data-filter="fade" role="tab" aria-selected="false">Fade</button>
+        <button class="filter-btn" data-filter="degradado" role="tab" aria-selected="false">Degradados</button>
+        <button class="filter-btn" data-filter="clasico" role="tab" aria-selected="false">Clásico</button>
+        <button class="filter-btn" data-filter="barba" role="tab" aria-selected="false">Barba</button>
+        <button class="filter-btn" data-filter="diseno" role="tab" aria-selected="false">Diseños</button>
+      </div>
+
+      <!-- Grid galería -->
+      <div class="gallery-grid" id="galleryGrid">
+        <!-- Fade -->
+        <div class="gallery-item reveal" data-category="fade">
+          <div class="gallery-card">
+            <div class="gallery-img" style="background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 50%, #111 100%);">
+              <div class="img-icon">✂</div>
+            </div>
+            <div class="gallery-overlay">
+              <span class="gallery-tag">Fade</span>
+              <p class="gallery-name">High Fade</p>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item reveal" data-category="fade">
+          <div class="gallery-card">
+            <div class="gallery-img" style="background: linear-gradient(135deg, #222 0%, #333 50%, #1a1a1a 100%);">
+              <div class="img-icon">✂</div>
+            </div>
+            <div class="gallery-overlay">
+              <span class="gallery-tag">Fade</span>
+              <p class="gallery-name">Skin Fade</p>
+            </div>
+          </div>
+        </div>
+        <!-- Degradados -->
+        <div class="gallery-item reveal" data-category="degradado">
+          <div class="gallery-card">
+            <div class="gallery-img" style="background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 100%);">
+              <div class="img-icon">✂</div>
+            </div>
+            <div class="gallery-overlay">
+              <span class="gallery-tag">Degradado</span>
+              <p class="gallery-name">Drop Fade</p>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item reveal" data-category="degradado">
+          <div class="gallery-card">
+            <div class="gallery-img" style="background: linear-gradient(135deg, #1e1e1e 0%, #2e2e2e 100%);">
+              <div class="img-icon">✂</div>
+            </div>
+            <div class="gallery-overlay">
+              <span class="gallery-tag">Degradado</span>
+              <p class="gallery-name">Low Fade</p>
+            </div>
+          </div>
+        </div>
+        <!-- Clásico -->
+        <div class="gallery-item reveal" data-category="clasico">
+          <div class="gallery-card">
+            <div class="gallery-img" style="background: linear-gradient(135deg, #252525 0%, #1c1c1c 100%);">
+              <div class="img-icon">✂</div>
+            </div>
+            <div class="gallery-overlay">
+              <span class="gallery-tag">Clásico</span>
+              <p class="gallery-name">Side Part</p>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item reveal" data-category="clasico">
+          <div class="gallery-card">
+            <div class="gallery-img" style="background: linear-gradient(135deg, #1f1f1f 0%, #2c2c2c 100%);">
+              <div class="img-icon">✂</div>
+            </div>
+            <div class="gallery-overlay">
+              <span class="gallery-tag">Clásico</span>
+              <p class="gallery-name">Pompadour</p>
+            </div>
+          </div>
+        </div>
+        <!-- Barba -->
+        <div class="gallery-item reveal" data-category="barba">
+          <div class="gallery-card">
+            <div class="gallery-img" style="background: linear-gradient(135deg, #232323 0%, #181818 100%);">
+              <div class="img-icon">✂</div>
+            </div>
+            <div class="gallery-overlay">
+              <span class="gallery-tag">Barba</span>
+              <p class="gallery-name">Barba Perfilada</p>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item reveal" data-category="barba">
+          <div class="gallery-card">
+            <div class="gallery-img" style="background: linear-gradient(135deg, #282828 0%, #1a1a1a 100%);">
+              <div class="img-icon">✂</div>
+            </div>
+            <div class="gallery-overlay">
+              <span class="gallery-tag">Barba</span>
+              <p class="gallery-name">Barba Diseño</p>
+            </div>
+          </div>
+        </div>
+        <!-- Diseños -->
+        <div class="gallery-item reveal" data-category="diseno">
+          <div class="gallery-card">
+            <div class="gallery-img" style="background: linear-gradient(135deg, #202020 0%, #2a2a2a 100%);">
+              <div class="img-icon">✂</div>
+            </div>
+            <div class="gallery-overlay">
+              <span class="gallery-tag">Diseño</span>
+              <p class="gallery-name">Líneas Geométricas</p>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item reveal" data-category="diseno">
+          <div class="gallery-card">
+            <div class="gallery-img" style="background: linear-gradient(135deg, #1d1d1d 0%, #2b2b2b 100%);">
+              <div class="img-icon">✂</div>
+            </div>
+            <div class="gallery-overlay">
+              <span class="gallery-tag">Diseño</span>
+              <p class="gallery-name">Tribal</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-note reveal">
+        <p>✦ Las fotos reales de nuestros trabajos se pueden ver en nuestro <a href="#redes" class="gold-link">Instagram @Peluinmacu</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== HORARIOS ========== -->
+  <section class="hours" id="horarios" aria-label="Horarios de atención">
+    <div class="container">
+      <div class="hours-grid">
+        <div class="hours-content reveal">
+          <p class="section-eyebrow">Estamos para vos</p>
+          <h2 class="section-title">Horarios de<br/>Atención</h2>
+          <p class="hours-desc">Trabajamos de lunes a sábado para que siempre encuentres el momento perfecto para tu corte.</p>
+          <a href="#turnos" class="btn btn-primary">Ver disponibilidad</a>
+        </div>
+        <div class="hours-table reveal">
+          <div class="hours-row">
+            <span class="hours-day">Lunes – Viernes</span>
+            <span class="hours-divider"></span>
+            <span class="hours-time">09:00 – 20:00</span>
+            <span class="hours-status open">Abierto</span>
+          </div>
+          <div class="hours-row">
+            <span class="hours-day">Sábados</span>
+            <span class="hours-divider"></span>
+            <span class="hours-time">09:00 – 18:00</span>
+            <span class="hours-status open">Abierto</span>
+          </div>
+          <div class="hours-row closed">
+            <span class="hours-day">Domingos</span>
+            <span class="hours-divider"></span>
+            <span class="hours-time">–</span>
+            <span class="hours-status">Cerrado</span>
+          </div>
+          <div class="hours-note">
+            <span>✦</span>
+            <p>Turnos con reserva previa. Llegá 5 minutos antes de tu horario.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SISTEMA DE TURNOS ========== -->
+  <section class="booking" id="turnos" aria-label="Sistema de turnos">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Agenda semanal</p>
+        <h2 class="section-title">Disponibilidad de Turnos</h2>
+        <p class="section-desc">Seleccioná el día y el horario que prefieras. Verde = disponible.</p>
+      </div>
+
+      <!-- Selector de días -->
+      <div class="day-selector reveal" role="tablist" aria-label="Seleccionar día">
+        <button class="day-btn active" data-day="lunes" role="tab" aria-selected="true">
+          <span class="day-short">LUN</span>
+          <span class="day-full">Lunes</span>
+        </button>
+        <button class="day-btn" data-day="martes" role="tab" aria-selected="false">
+          <span class="day-short">MAR</span>
+          <span class="day-full">Martes</span>
+        </button>
+        <button class="day-btn" data-day="miercoles" role="tab" aria-selected="false">
+          <span class="day-short">MIÉ</span>
+          <span class="day-full">Miércoles</span>
+        </button>
+        <button class="day-btn" data-day="jueves" role="tab" aria-selected="false">
+          <span class="day-short">JUE</span>
+          <span class="day-full">Jueves</span>
+        </button>
+        <button class="day-btn" data-day="viernes" role="tab" aria-selected="false">
+          <span class="day-short">VIE</span>
+          <span class="day-full">Viernes</span>
+        </button>
+        <button class="day-btn" data-day="sabado" role="tab" aria-selected="false">
+          <span class="day-short">SÁB</span>
+          <span class="day-full">Sábado</span>
+        </button>
+      </div>
+
+      <!-- Grid de turnos -->
+      <div class="slots-grid" id="slotsGrid" aria-live="polite">
+        <!-- Se carga dinámicamente via JS -->
+      </div>
+
+      <p class="slots-note reveal">* Esta agenda es demostrativa. Para reservar, contactanos por WhatsApp o completá el formulario de contacto.</p>
+    </div>
+  </section>
+
+  <!-- ========== SERVICIOS ========== -->
+  <section class="services" id="servicios" aria-label="Nuestros servicios">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Lo que hacemos</p>
+        <h2 class="section-title">Nuestros Servicios</h2>
+        <p class="section-desc">Cada servicio es una experiencia diseñada para resaltar tu mejor versión.</p>
+      </div>
+      <div class="services-grid">
+
+        <div class="service-card reveal">
+          <div class="service-icon" aria-hidden="true">✂</div>
+          <h3 class="service-name">Corte de Cabello</h3>
+          <p class="service-desc">Fade, degradado, clásico o moderno. Adaptado a tu forma de cara y estilo personal.</p>
+          <div class="service-footer">
+            <span class="service-price">$3.500</span>
+            <a href="#contacto" class="service-cta">Reservar</a>
+          </div>
+        </div>
+
+        <div class="service-card reveal featured">
+          <div class="service-badge-top">Popular</div>
+          <div class="service-icon" aria-hidden="true">⚡</div>
+          <h3 class="service-name">Corte + Barba</h3>
+          <p class="service-desc">El combo completo. Corte premium más perfilado y diseño de barba con navaja caliente.</p>
+          <div class="service-footer">
+            <span class="service-price">$5.500</span>
+            <a href="#contacto" class="service-cta">Reservar</a>
+          </div>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon" aria-hidden="true">◆</div>
+          <h3 class="service-name">Perfilado de Barba</h3>
+          <p class="service-desc">Delineado preciso con navaja, para un acabado limpio y prolijo que dura semanas.</p>
+          <div class="service-footer">
+            <span class="service-price">$2.500</span>
+            <a href="#contacto" class="service-cta">Reservar</a>
+          </div>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon" aria-hidden="true">★</div>
+          <h3 class="service-name">Diseño Personalizado</h3>
+          <p class="service-desc">Líneas, figuras, patrones y arte capilar. Tu imaginación, nuestra precisión.</p>
+          <div class="service-footer">
+            <span class="service-price">$4.500</span>
+            <a href="#contacto" class="service-cta">Reservar</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== OPINIONES ========== -->
+  <section class="reviews" id="opiniones" aria-label="Opiniones de clientes">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Lo que dicen</p>
+        <h2 class="section-title">Opiniones de Clientes</h2>
+      </div>
+      <div class="reviews-grid">
+
+        <div class="review-card reveal">
+          <div class="review-stars" aria-label="5 estrellas">★★★★★</div>
+          <p class="review-text">"El mejor fade de Córdoba, sin dudas. Cada vez que salgo de Peluinmacu siento que soy otra persona. La atención es de primera."</p>
+          <div class="review-author">
+            <div class="review-avatar" aria-hidden="true">M</div>
+            <div>
+              <p class="review-name">Matías González</p>
+              <p class="review-meta">Cliente desde 2021</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card reveal">
+          <div class="review-stars" aria-label="5 estrellas">★★★★★</div>
+          <p class="review-text">"Fui por primera vez y no voy a ir a ningún otro lado. El ambiente, la música, el trato... todo de nivel. Y el corte quedó impecable."</p>
+          <div class="review-author">
+            <div class="review-avatar" aria-hidden="true">L</div>
+            <div>
+              <p class="review-name">Lucas Fernández</p>
+              <p class="review-meta">Cliente desde 2022</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card reveal">
+          <div class="review-stars" aria-label="5 estrellas">★★★★★</div>
+          <p class="review-text">"Me hicieron un diseño personalizado increíble. Nunca pensé que un corte pudiera hacerme sentir tan seguro. Peluinmacu es diferente."</p>
+          <div class="review-author">
+            <div class="review-avatar" aria-hidden="true">S</div>
+            <div>
+              <p class="review-name">Sebastián Ruiz</p>
+              <p class="review-meta">Cliente desde 2023</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card reveal">
+          <div class="review-stars" aria-label="5 estrellas">★★★★★</div>
+          <p class="review-text">"Vine por recomendación y ya les mandé a todos mis amigos. Turno puntual, ambiente genial y el barbero sabe exactamente lo que querés."</p>
+          <div class="review-author">
+            <div class="review-avatar" aria-hidden="true">A</div>
+            <div>
+              <p class="review-name">Agustín Morales</p>
+              <p class="review-meta">Cliente desde 2020</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== REDES SOCIALES ========== -->
+  <section class="social" id="redes" aria-label="Redes sociales">
+    <div class="container">
+      <div class="social-content reveal">
+        <p class="section-eyebrow">Seguinos</p>
+        <h2 class="section-title">+11.000 personas<br/>ya eligieron su estilo.</h2>
+        <p class="social-desc">Seguinos en Instagram y descubrí los mejores cortes, tendencias y novedades de Peluinmacu.</p>
+        <div class="social-links">
+          <a href="https://instagram.com/Peluinmacu" target="_blank" rel="noopener" class="social-btn instagram" aria-label="Seguir en Instagram">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22" aria-hidden="true">
+              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+            </svg>
+            @Peluinmacu · 11K seguidores
+          </a>
+          <a href="https://wa.me/5493513409738" target="_blank" rel="noopener" class="social-btn whatsapp" aria-label="Contactar por WhatsApp">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22" aria-hidden="true">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+            </svg>
+            WhatsApp
+          </a>
+          <a href="https://tiktok.com/@Peluinmacu" target="_blank" rel="noopener" class="social-btn tiktok" aria-label="Ver TikTok">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22" aria-hidden="true">
+              <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.27 6.27 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.18 8.18 0 004.78 1.52V6.77a4.85 4.85 0 01-1.01-.08z"/>
+            </svg>
+            TikTok
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACTO ========== -->
+  <section class="contact" id="contacto" aria-label="Contacto">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <p class="section-eyebrow">Hablemos</p>
+          <h2 class="section-title">Contacto</h2>
+          <div class="info-items">
+            <div class="info-item">
+              <span class="info-icon" aria-hidden="true">📍</span>
+              <div>
+                <p class="info-label">Dirección</p>
+                <p class="info-value">Av. Colón 1234, Nueva Córdoba<br/>Córdoba, Argentina</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <span class="info-icon" aria-hidden="true">📞</span>
+              <div>
+                <p class="info-label">Teléfono</p>
+                <p class="info-value"><a href="tel:+5493513409738" class="gold-link">+54 9 351 123-4567</a></p>
+              </div>
+            </div>
+            <div class="info-item">
+              <span class="info-icon" aria-hidden="true">💬</span>
+              <div>
+                <p class="info-label">WhatsApp</p>
+                <p class="info-value"><a href="https://wa.me/5493513409738" target="_blank" rel="noopener" class="gold-link">Escribinos al +54 9 351 123-4567</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-wrapper reveal">
+          <form class="contact-form" id="contactForm" novalidate aria-label="Formulario de contacto">
+            <div class="form-group">
+              <label for="name" class="form-label">Nombre completo</label>
+              <input type="text" id="name" name="name" class="form-input" placeholder="Tu nombre" required autocomplete="name" />
+            </div>
+            <div class="form-group">
+              <label for="phone" class="form-label">Teléfono / WhatsApp</label>
+              <input type="tel" id="phone" name="phone" class="form-input" placeholder="+54 9 351 xxx-xxxx" required autocomplete="tel" />
+            </div>
+            <div class="form-group">
+              <label for="message" class="form-label">Mensaje</label>
+              <textarea id="message" name="message" class="form-input form-textarea" placeholder="Contanos qué servicio necesitás o cualquier consulta..." rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">Enviar mensaje</button>
+            <div class="form-success" id="formSuccess" role="alert" aria-live="polite">
+              <span>✦</span> ¡Mensaje enviado! Te contactamos a la brevedad.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#inicio" class="nav-logo footer-logo" aria-label="Peluinmacu inicio">
+            <span class="logo-icon">✦</span>
+            <span class="logo-text">Peluinmacu</span>
+          </a>
+          <p class="footer-tagline">Tu estilo comienza aquí.</p>
+          <div class="footer-social">
+            <a href="https://instagram.com/Peluinmacu" target="_blank" rel="noopener" aria-label="Instagram" class="footer-social-link">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+            <a href="https://wa.me/5493513409738" target="_blank" rel="noopener" aria-label="WhatsApp" class="footer-social-link">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </a>
+            <a href="https://tiktok.com/@Peluinmacu" target="_blank" rel="noopener" aria-label="TikTok" class="footer-social-link">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.27 6.27 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.18 8.18 0 004.78 1.52V6.77a4.85 4.85 0 01-1.01-.08z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h3 class="footer-heading">Servicios</h3>
+          <ul class="footer-list" role="list">
+            <li><a href="#servicios">Corte de Cabello</a></li>
+            <li><a href="#servicios">Corte + Barba</a></li>
+            <li><a href="#servicios">Perfilado de Barba</a></li>
+            <li><a href="#servicios">Diseño Personalizado</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3 class="footer-heading">Horarios</h3>
+          <ul class="footer-list footer-hours" role="list">
+            <li><span>Lun – Vie</span><span>09:00 – 20:00</span></li>
+            <li><span>Sábados</span><span>09:00 – 18:00</span></li>
+            <li class="closed-row"><span>Domingos</span><span>Cerrado</span></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3 class="footer-heading">Ubicación</h3>
+          <ul class="footer-list" role="list">
+            <li>Av. Colón 1234</li>
+            <li>Nueva Córdoba</li>
+            <li>Córdoba, Argentina</li>
+            <li><a href="tel:+5493513409738">+54 9 351 340-9738</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2025 Peluinmacu. Todos los derechos reservados.</p>
+        <p>Diseñado con ✦ en Córdoba.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== BOTÓN FLOTANTE WHATSAPP ========== -->
+  <a href="https://wa.me/5493513409738" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28" aria-hidden="true">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+    <span class="wa-tooltip">¡Reservá por WhatsApp!</span>
+  </a>
+
+  <!-- ========== LIGHTBOX ========== -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-label="Vista ampliada" aria-modal="true">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Cerrar">&times;</button>
+    <div class="lightbox-content" id="lightboxContent"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
