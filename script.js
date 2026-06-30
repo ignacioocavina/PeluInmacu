@@ -163,14 +163,15 @@ const lightboxClose   = document.getElementById('lightboxClose');
 const lightboxContent = document.getElementById('lightboxContent');
 
 function openLightbox(card) {
-  const imgDiv   = card.querySelector('.gallery-img');
   const overlay  = card.querySelector('.gallery-overlay');
-  const tag      = overlay ? overlay.querySelector('.gallery-tag')?.textContent  : '';
-  const name     = overlay ? overlay.querySelector('.gallery-name')?.textContent : '';
-  const bgStyle  = imgDiv ? imgDiv.getAttribute('style') : '';
+  const tag      = card.dataset.categoryLabel || (overlay ? overlay.querySelector('.gallery-tag')?.textContent : '');
+  const name     = card.dataset.title || (overlay ? overlay.querySelector('.gallery-name')?.textContent : '');
+  const imageSrc = card.dataset.image || '';
 
   lightboxContent.innerHTML = `
-    <div class="lightbox-img" style="${bgStyle}">✂</div>
+    <div class="lightbox-media">
+      <img src="${imageSrc}" alt="${name}" />
+    </div>
     <div class="lightbox-info">
       <span class="lightbox-tag">${tag}</span>
       <p class="lightbox-name">${name}</p>
